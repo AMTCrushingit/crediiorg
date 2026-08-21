@@ -1,47 +1,36 @@
-# Credii Foundation website
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Production-ready Phase 1 public website for Credii Foundation.
+## Getting Started
 
-## Stack
-
-- Next.js 15
-- React 19
-- TypeScript
-- Plain CSS, with no CSS framework dependency
-
-## Run locally
+First, run the development server:
 
 ```bash
-npm install
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-Open http://localhost:3000.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Build
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-```bash
-npm run build
-npm start
-```
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Deploy to Vercel
+## Learn More
 
-1. Create a new GitHub repository.
-2. Add this project and push the main branch.
-3. Import the repository into Vercel.
-4. Use the default Next.js build settings.
-5. Add crediifoundation.org in the Vercel project Domains settings.
-6. Follow the DNS records shown by Vercel at the domain registrar.
+To learn more about Next.js, take a look at the following resources:
 
-## Before public launch
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-- Replace the placeholder contact details in `app/contact/page.tsx`.
-- Point the Launch platform links to the future application URL.
-- Add approved governance information, privacy policy and terms.
-- Add verified impact figures only after reportable program results exist.
-- Add social links when official accounts are confirmed.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Brand assets
+## Deploy on Vercel
 
-The supplied Credii logo is stored at `public/brand/credii-logo.png`.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
